@@ -26,6 +26,7 @@
     grid-template-columns: repeat(2, 1fr);
     background: orange;
     height: 45%;
+    width: 350px;
     border-radius: 50px;
     padding: 50px;
 }
