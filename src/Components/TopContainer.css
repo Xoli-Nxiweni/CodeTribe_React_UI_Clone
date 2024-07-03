@@ -1,0 +1,26 @@
+.Top{
+    padding: 5% 2%;
+    background: #db8989;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.TopLeftContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 10%;
+    background: #fff;
+    /* width: 60%; */
+    height: 500px;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
+.TopRightContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: orange;
+    height: 45%;
+    border-radius: 50px;
+    padding: 50px;
+}
