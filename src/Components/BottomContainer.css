@@ -1,17 +1,11 @@
 .bottomLeft{
-    border: 1px solid white;
     position: relative;
-    padding: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
+    padding: 1%;
 }
-.anotherLogo2 img{
-    width: 25px;;
-}
-.anotherLogo2 h1{
-    font-size: small;
-}
+
 img{
     width: 60px;
 }
@@ -20,8 +14,18 @@ img{
     position: relative;
     padding: 20px;
     height: 250px;
-    width: 450px;
     border-radius: 35px;
+    overflow: hidden;
+}
+.content .anotherLogo2{
+   display: flex;
+   gap: 10px;
+}
+.anotherLogo2 img{
+    width: 25px;
+}
+.anotherLogo2 h1{
+    font-size: small;
 }
 h3{
     position: absolute;
@@ -30,4 +34,25 @@ h3{
     font-size: 2em;
     font-weight: 300;
     text-align: center;
+}
+.belowPart{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.belowPart button{
+    border-radius: 35px;
+    border: none;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+.belowPart img{
+    
+}
+.contentTwo{
+    background: #8e9db4;
 }

@@ -13,7 +13,6 @@ function App() {
             <TopContainer />
             <BottomContainer />
           </div>
-
           <div className='rightContainer'>
             <RightContainers />
           </div>

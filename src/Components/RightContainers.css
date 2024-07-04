@@ -1,15 +1,15 @@
 .rightContainers{
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
     border-radius: 35px;
-    height: 85vh;
+    /* height: 85vh; */
     overflow: hidden;
-    padding: 4% 2%;
+    /* padding: 4% 2%; */
     
 }
 .topRight{
-    background: rgb(226, 167, 57);
+    background: #ffc10d;
     text-align: center;
-    margin: 10px 20px;
+    /* margin: 10px 20px; */
     border-radius: 35px;
 }
 .topRight p{
@@ -21,7 +21,7 @@
     font-size: large;
     border: none;
     background: transparent;
-    margin: 10px 0 0 0;
+    /* margin: 10px 0 0 0; */
 }
 
 
@@ -31,9 +31,9 @@
     justify-content: space-between;
     border: 2px solid #fff;
     border-radius: 35px;
-    padding: 20px 30px;
+    padding: 20px;
     position: relative;
-    margin: 10px 20px;
+    /* margin: 10px 20px; */
 }
 .bottomRight .image{
     width: 300px;
@@ -44,4 +44,21 @@
 h2{
     color: #fff;
     text-transform: capitalize;
+
+}
+.LM-Btn{
+    background: #a3ef8d;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    font-weight: 500;
+}
+.anotherLogo2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bottomSection2 p{
+    color: #fff;
+    font-weight: 200;
 }

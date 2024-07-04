@@ -11,6 +11,9 @@
 .logo h1{
     color: #fff;
 }
+.logo img{
+    width: 50px;
+}
 ul li{
     display: flex;
     gap: 75px;
@@ -18,6 +21,7 @@ ul li{
 ul li a{
     color: #fff;
     text-decoration: none;
+    font-size: small;
 }
 .btn1{
     padding: 10px 20px;
