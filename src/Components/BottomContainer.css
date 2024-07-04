@@ -1,0 +1,33 @@
+.bottomLeft{
+    border: 1px solid white;
+    position: relative;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.anotherLogo2 img{
+    width: 25px;;
+}
+.anotherLogo2 h1{
+    font-size: small;
+}
+img{
+    width: 60px;
+}
+.content{
+    background: rgb(0, 119, 255);
+    position: relative;
+    padding: 20px;
+    height: 250px;
+    width: 450px;
+    border-radius: 35px;
+}
+h3{
+    position: absolute;
+    right: 10%;
+    top: 20px;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
