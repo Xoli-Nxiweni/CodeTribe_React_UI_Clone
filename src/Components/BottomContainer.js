@@ -22,13 +22,13 @@ let BottomContainer = () =>{
                         {/* something */}
                     </img>
                 </div>
-                <div>
+                <div className='belowPart2'>
                 <p>Your creative idea we<br/> 
                 will make it easier and <br/> 
                 improve your work</p>
                 <button>More</button>
-                <img/>
                 </div>
+                <img src='https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEYfw3eFrdYOEm1WXkdyvFM1KYo7auvbparnAQambVu8vzfoRy'/>
             </div>
             
         </div>

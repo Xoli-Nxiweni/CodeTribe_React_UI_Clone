@@ -8,7 +8,7 @@ let NavigationBar = () =>{
             </div>
 
             <ul>
-                <li className= 'links'>
+                <li>
                     <a href='#'>Home</a>
                     <a href='#'>About</a>
                     <a href='#'>Blog</a>

@@ -1,5 +1,5 @@
 .Top{
-    padding: 10px;
+    padding: 50px 10px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
@@ -7,33 +7,48 @@
 .containerWrapper{
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 10px;
 }
 .TopLeftContainer{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2% 5%;
+    padding: 0px 4%;
     background: #fff;
-    border-radius: 30px;
+    border-radius: 35px;
 }
 .TopLeftContainer h1{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .TopLeftContainer p{
     padding: 0px 0 60px 0;
+    font-size: .7em;
+}
+.TopLeftContainer img{
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    width: 200px;
+    transform: rotate(160deg);
+    object-fit: cover;
+    overflow: hidden;
 }
 .btn2{
     position: absolute;
     margin: 0 auto;
     bottom: 0;
-    padding: 10px 90px 10px 20px;
+    padding: 10px 90px 10px 10px;
     border-radius: 50px;
     border: none;
     background: #2519ff;
     color: #fff;
-    margin: 10px 0;
+    margin: 20px 0;
+}
+.arrow{
+    position: absolute;
+    right: 10%;
+    font-size: 25px;
 }
 
 .TopRightContainer1{
@@ -42,27 +57,33 @@
     align-items: center;
     justify-content: center;
     gap: 10px 15px;
-    border: 1px solid orange;
+    background: url(https://img.freepik.com/premium-photo/abstract-background-pastel-colors-with-lines-balls-ai-generated_201606-11475.jpg?w=1380);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
     height: auto;
-    border-radius: 50px;
-    padding: 20px;
+    border-radius: 30px;
+    padding: 5px 30px;
     color: #fff;
 }
 .TopRightContainer1 h1{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 300;
 }
 .TopRightContainer1 p{
-    font-size: .7em;
+    font-size: .5em;
+}
+.TwoLT-Para p, 
+.ThirtyP-Para param{
+    font-size: .6em;
 }
 .TopRightContainer1 span{
-    font-size: .7em;
+    font-size: .5em;
 }
 .TopRightContainer2{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50px;
     color: #fff;
     
 }
@@ -70,7 +91,8 @@
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 10px;
+    padding: 50px 0 25px 0;
 }
 .coloredLogo{
     color: #e1addb;

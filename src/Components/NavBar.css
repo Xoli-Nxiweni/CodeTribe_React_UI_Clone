@@ -9,10 +9,11 @@
     gap: 10px;
 }
 .logo h1{
+    font-size: .8em;
     color: #fff;
 }
 .logo img{
-    width: 50px;
+    width: 20px;
 }
 ul li{
     display: flex;
@@ -21,12 +22,11 @@ ul li{
 ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: small;
+    font-size: .5em;
 }
 .btn1{
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 50px;
     border: none;
-    font-size: large;
     font-weight: bold;
 }

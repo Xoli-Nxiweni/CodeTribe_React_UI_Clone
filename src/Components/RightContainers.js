@@ -4,7 +4,7 @@ let RightContainers = () =>{
     return(
         <div className='rightContainers'>
             <div className='topRight'>
-                <img/>
+                <img src='https://cdn.pixabay.com/photo/2024/04/11/09/24/ai-generated-8689555_640.jpg'/>
                 <p>we help SaaS companies <br/> overcome product design<br /> challenges. every single day.</p>
                 <button>More</button>
             </div>
@@ -14,8 +14,8 @@ let RightContainers = () =>{
                 </div>
                 <div className='bottomSection2'>
                     <h2>increase <br/> business on <br/> social media <br/> reach</h2>
-                    <img className='image' src='https://www.lightstalking.com/wp-content/uploads/stephanie-leblanc-JLMEZxBcXCU-unsplash.jpg'/>
-                    <p>using our network of industry<br/> influencer's, we help promote your<br/> content</p>
+                    <img className='image' src='https://img.freepik.com/free-photo/confident-man-with-red-beard-wearing-full-equipment-holding-snowboard-his-shoulder-looking-away-with-serious-look_613910-19190.jpg'/>
+                    <p>using our network of industry<br/> influencer's, we help promote<br/> your content</p>
                     <button className='LM-Btn'>Learn More</button>
                 </div>
             </div>
