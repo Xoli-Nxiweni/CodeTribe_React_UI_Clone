@@ -16,6 +16,7 @@ img{
     height: 250px;
     border-radius: 35px;
     overflow: hidden;
+    color: #fff;
 }
 .content .anotherLogo2{
    display: flex;
@@ -55,4 +56,17 @@ h3{
 }
 .contentTwo{
     background: #8e9db4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    color: #fff;
+    border-radius: 35px;
+}
+.contentTwo button{
+    background: transparent;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    color: #fff;
+
 }
