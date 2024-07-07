@@ -8,14 +8,53 @@
 }
 body{
   background: #5f6b81;
-}
-.Wrapper{
-  margin: 3%;
-  border: 2px solid #fff;
-  /* height: 90vh; */
+  margin: 10px;
+  padding: 30px;
+  border: 3px solid #fff;
   border-radius: 35px;
 }
-.Containers{
+.Wrapper{
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr .5fr;
+  /* grid-template-rows: .2fr .3fr .5fr; */
+  grid-template-areas: 
+  "Nav  Nav Nav"
+  "Topp Topp SideBar"
+  "Bottomm Bottomm SideBar";
+  gap: 30px;
+}
+
+.NavBar{
+  grid-area: Nav;
+  /* border: 1px solid black; */
+  padding: 0 10px 20px 10px;
+}
+.TopCont{
+  grid-area: Topp;
+  /* padding: 10px; */
+  /* border: 1px solid black; */
+  display: grid;
+  /* align-items: center; */
+}
+.BottomCont{
+  grid-area: Bottomm;
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+  display: grid;
+  /* align-items: center; */
+}
+.RightCont{
+  grid-area: SideBar;
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+  display: grid;
+  align-items: center;
+}
+button{
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+button:hover{
+  background-color: rgb(76, 91, 67);
+  color: #fff;
 }

@@ -1,8 +1,8 @@
 .Top{
-    padding: 50px 10px;
+    /* padding: 50px 10px; */
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 10px;
+    gap: 30px;
 }
 .containerWrapper{
     display: flex;
@@ -19,7 +19,7 @@
     border-radius: 35px;
 }
 .TopLeftContainer h1{
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 .TopLeftContainer p{
     padding: 0px 0 60px 0;
@@ -28,7 +28,7 @@
 .TopLeftContainer img{
     position: absolute;
     right: 0;
-    bottom: -60px;
+    bottom: -45px;
     width: 200px;
     transform: rotate(160deg);
     object-fit: cover;
@@ -62,7 +62,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     height: auto;
-    border-radius: 30px;
+    border-radius: 35px;
     padding: 5px 30px;
     color: #fff;
 }
