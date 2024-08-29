@@ -1,33 +1,140 @@
-.NavBar{
+.NavBar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding: 10px;
+    /* background-color: #333;  */
 }
-.logo{
+
+.logo {
     display: flex;
     gap: 10px;
     align-items: center;
 }
-.logo h1{
+
+.logo h1 {
     font-size: 1.2em;
     color: #fff;
 }
-.logo img{
+
+.logo img {
     width: 20px;
 }
-ul li{
+
+ul {
+    display: flex;
+}
+
+ul li {
     display: flex;
     gap: 75px;
 }
-ul li a{
+
+ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
 }
-.btn1{
+
+.btn1 {
     padding: 6px 10px;
     border-radius: 35px;
     border: none;
     font-weight: bold;
+    background-color: #fff; /* Add background and text color for better visibility */
+    color: #333;
+    cursor: pointer;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Toggle classes for hamburger animation */
+.hamburger.open div:nth-child(1) {
+    transform: rotate(44deg) translateY(11px);
+}
+
+.hamburger.open div:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open div:nth-child(3) {
+    transform: rotate(-44deg) translateY(-11px);
+}
+/* Close Button */
+.close-menu-btn {
+    display: none;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: right;
+    margin-right: 15px;
+}
+
+/* Show close button in mobile view when the menu is active */
+@media (max-width: 940px) {
+    .NavBar.active .close-menu-btn {
+        display: block;
+    }
+}
+
+
+/* Media Queries */
+@media (max-width: 940px) {
+    ul {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        background-color: #333;
+        flex-direction: column;
+        width: 200px;
+        gap: 10px;
+        padding: 15px;
+        border-radius: 5px;
+        display: none;
+        z-index: 999;
+        align-items: center;
+    }
+
+    ul li {
+        gap: 0;
+        display: block;
+        text-align: right;
+    }
+
+    ul li a {
+        display: block;
+        padding: 10px;
+    }
+
+    .NavBar .btn1 {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    /* Show the menu when active */
+    .NavBar.active ul {
+        display: flex;
+    }
 }

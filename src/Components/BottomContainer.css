@@ -90,3 +90,12 @@ h3{
     right: 10px;
     border-radius: 50%;
 }
+
+@media (max-width:940px) {
+    .bottomLeft{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+  }

@@ -6,7 +6,8 @@ let RightContainers = () =>{
             <div className='topRight'>
                 <img src='https://cdn.pixabay.com/photo/2024/04/11/09/24/ai-generated-8689555_640.jpg'/>
                 <p>we help SaaS companies <br/> overcome product design<br /> challenges. every single day.</p>
-                <button>More</button>
+                <button onClick={()=> console.log('More button clicked')
+            }>More</button>
             </div>
             <div className='bottomRight'>
                 <div className='anotherLogo2'>
@@ -16,7 +17,8 @@ let RightContainers = () =>{
                     <h2>increase <br/> business on <br/> social media <br/> reach</h2>
                     <img className='image' src='https://img.freepik.com/free-photo/confident-man-with-red-beard-wearing-full-equipment-holding-snowboard-his-shoulder-looking-away-with-serious-look_613910-19190.jpg'/>
                     <p>using our network of industry<br/> influencer's, we help promote<br/> your content</p>
-                    <button className='LM-Btn'>Learn More</button>
+                    <button className='LM-Btn' onClick={()=> console.log('Learn More button clicked')
+            }>Learn More</button>
                 </div>
             </div>
         </div>

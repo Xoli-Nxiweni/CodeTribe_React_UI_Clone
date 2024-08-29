@@ -12,7 +12,8 @@ let TopContainer = () =>{
             <p>We work on a diverse range of projects, from helping<br />
             startups get their business up</p>
 
-            <button className='btn2'>Get's More <GoArrowUpRight className='arrow' /></button>
+            <button className='btn2' onClick={()=> console.log('gets morebutton clicked')
+            }>Get's More <GoArrowUpRight className='arrow' /></button>
             <img src='https://png.pngtree.com/png-clipart/20231029/original/pngtree-bvlgari-serpenti-ring-clipart-transparent-background-png-image_13454174.png' />
         </div>
         <div className='containerWrapper'>

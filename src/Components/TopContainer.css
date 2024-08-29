@@ -97,3 +97,11 @@
 .coloredLogo{
     color: #e1addb;
 }
+@media (max-width:940px) {
+    .Top{
+        /* padding: 50px 10px; */
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+  }
